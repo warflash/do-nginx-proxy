@@ -1,0 +1,8 @@
+name: repro
+
+services:
+- name: test-proxy
+  github:
+    repo: warflash/do-nginx-proxy
+    branch: main
+    deploy_on_push: true
